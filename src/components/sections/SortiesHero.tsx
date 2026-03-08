@@ -3,7 +3,7 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal"
 
 export function SortiesHero() {
   return (
-    <section className="relative flex min-h-[70vh] items-center bg-black pt-28 pb-20">
+    <section className="relative flex min-h-[70vh] items-center bg-transparent pt-28 pb-20">
       <div className="container mx-auto px-6 text-center">
         <ScrollReveal>
           <h1 className="mb-6 text-5xl leading-tight font-extrabold md:text-7xl">

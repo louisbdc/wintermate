@@ -17,7 +17,7 @@ export function CoachFeedback({ session }: CoachFeedbackProps) {
   const ameliorations = session.coachNotes.filter((n) => n.category === "amelioration")
 
   return (
-    <section className="border-t border-white/5 bg-zinc-950 py-16">
+    <section className="border-t border-white/5 bg-transparent py-16">
       <div className="container mx-auto px-6">
         <div className="mx-auto max-w-3xl rounded-[2rem] border border-white/10 bg-white/[0.02] p-8 backdrop-blur-sm md:p-12">
           <div className="mb-8 flex items-center gap-4">

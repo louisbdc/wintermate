@@ -2,7 +2,7 @@ import { DownloadButton } from "@/components/ui/DownloadButton"
 
 export function ChallengesHero() {
   return (
-    <section className="bg-black pt-32 pb-20">
+    <section className="bg-transparent pt-32 pb-20">
       <div className="container mx-auto px-6 text-center">
         <p className="mb-4 text-sm font-bold uppercase tracking-widest text-neon-orange">
           Challenges

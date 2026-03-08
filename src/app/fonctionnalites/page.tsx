@@ -16,7 +16,7 @@ export default function FonctionnalitesPage() {
     <>
       <Navbar />
 
-      <main className="min-h-screen bg-black pt-32 pb-24">
+      <main className="min-h-screen bg-transparent pt-32 pb-24">
         <div className="container mx-auto px-6">
           <ScrollReveal>
             <div className="mx-auto mb-16 max-w-2xl text-center">

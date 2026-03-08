@@ -4,7 +4,7 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal"
 
 export function ProgressionHero() {
   return (
-    <header className="relative flex min-h-[70vh] items-center bg-black pt-24 pb-16">
+    <header className="relative flex min-h-[70vh] items-center bg-transparent pt-24 pb-16">
       <div className="container mx-auto px-6 text-center">
         <ScrollReveal>
           <h1 className="mb-6 text-5xl leading-tight font-extrabold md:text-7xl">

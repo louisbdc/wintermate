@@ -7,7 +7,7 @@ export default function NotFound() {
     <>
       <Navbar />
 
-      <main className="flex min-h-screen flex-col items-center justify-center bg-black px-6 text-center">
+      <main className="flex min-h-screen flex-col items-center justify-center bg-transparent px-6 text-center">
         <p className="mb-4 text-8xl font-black text-neon-orange md:text-9xl">
           404
         </p>

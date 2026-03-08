@@ -24,7 +24,7 @@ export default function ChallengesPage() {
       <LeaderboardPreview />
 
       {/* CTA Section */}
-      <section className="border-t border-white/5 bg-black py-24">
+      <section className="border-t border-white/5 bg-transparent py-24">
         <div className="mx-auto max-w-lg px-6 text-center">
           <h2 className="mb-4 text-3xl font-extrabold md:text-4xl">
             Pr&ecirc;t &agrave; relever le d&eacute;fi&nbsp;?
@@ -41,7 +41,7 @@ export default function ChallengesPage() {
       </section>
 
       {/* Back link */}
-      <section className="bg-black pb-16">
+      <section className="bg-transparent pb-16">
         <div className="text-center">
           <Link
             href="/"

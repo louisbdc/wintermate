@@ -87,7 +87,7 @@ export default async function TeamMemberPage({ params }: PageProps) {
       </section>
 
       {/* ── Stats Bar ── */}
-      <section className="border-b border-white/5 bg-zinc-950">
+      <section className="border-b border-white/5 bg-transparent">
         <div className="container mx-auto grid grid-cols-2 gap-px md:grid-cols-4">
           {member.stats.map((stat) => (
             <div
@@ -106,7 +106,7 @@ export default async function TeamMemberPage({ params }: PageProps) {
       </section>
 
       {/* ── Detail View (Bio + Skills) ── */}
-      <section className="bg-black py-20">
+      <section className="bg-transparent py-20">
         <div className="container mx-auto px-6">
           <div className="grid gap-16 lg:grid-cols-12">
             {/* Left - Bio */}
@@ -159,7 +159,7 @@ export default async function TeamMemberPage({ params }: PageProps) {
       </section>
 
       {/* ── Timeline ── */}
-      <section className="border-t border-white/5 bg-zinc-950 py-20">
+      <section className="border-t border-white/5 bg-transparent py-20">
         <div className="container mx-auto max-w-3xl px-6">
           <h2 className="mb-12 text-3xl font-black md:text-4xl">
             Chronologie
@@ -169,7 +169,7 @@ export default async function TeamMemberPage({ params }: PageProps) {
       </section>
 
       {/* ── Other Members ── */}
-      <section className="border-t border-white/5 bg-black py-20">
+      <section className="border-t border-white/5 bg-transparent py-20">
         <div className="container mx-auto px-6">
           <h2 className="mb-10 text-2xl font-black">
             Découvrir le reste de l&apos;équipe

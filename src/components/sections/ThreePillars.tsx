@@ -4,7 +4,7 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal"
 
 export function ThreePillars() {
   return (
-    <section className="bg-black py-24">
+    <section className="bg-transparent py-24">
       <div className="container mx-auto px-6">
         <ScrollReveal>
           <h2 className="mb-4 text-center text-4xl font-black uppercase md:text-6xl">

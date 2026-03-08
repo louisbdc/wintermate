@@ -8,7 +8,7 @@ interface DebriefingHeroProps {
 
 export function DebriefingHero({ session }: DebriefingHeroProps) {
   return (
-    <section className="border-b border-white/5 bg-black pt-28 pb-16">
+    <section className="border-b border-white/5 bg-transparent pt-28 pb-16">
       <div className="container mx-auto px-6">
         <Link
           href="/"

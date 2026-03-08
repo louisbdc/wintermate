@@ -7,7 +7,7 @@ interface MetricsGridProps {
 
 export function MetricsGrid({ session }: MetricsGridProps) {
   return (
-    <section className="border-t border-white/5 bg-black py-16">
+    <section className="border-t border-white/5 bg-transparent py-16">
       <div className="container mx-auto px-6">
         <h2 className="mb-8 text-2xl font-black uppercase tracking-tighter md:text-4xl">
           Métriques Techniques

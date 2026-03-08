@@ -4,7 +4,7 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal"
 
 export function FeaturesShowcase() {
   return (
-    <section className="bg-black py-24">
+    <section className="bg-transparent py-24">
       <div className="container mx-auto px-6">
         <ScrollReveal>
           <div className="mx-auto mb-16 max-w-2xl text-center">

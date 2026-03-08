@@ -4,7 +4,7 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal"
 
 export function TeamSection() {
   return (
-    <section id="equipe" className="overflow-hidden bg-zinc-950 py-24">
+    <section id="equipe" className="overflow-hidden bg-transparent py-24">
       <div className="container mx-auto mb-12 px-6">
         <ScrollReveal>
           <h2 className="mb-4 text-4xl leading-none font-black uppercase text-center md:text-left md:text-6xl">

@@ -13,7 +13,7 @@ const STATUS_COLORS = {
 
 export function VideoAnalysis({ session }: VideoAnalysisProps) {
   return (
-    <section className="bg-black py-16">
+    <section className="bg-transparent py-16">
       <div className="container mx-auto px-6">
         <h2 className="mb-8 text-2xl font-black uppercase tracking-tighter md:text-4xl">
           Analyse Vidéo

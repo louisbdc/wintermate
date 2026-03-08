@@ -13,7 +13,7 @@ export default function SupportPage() {
     <>
       <Navbar />
 
-      <main className="min-h-screen bg-black pt-28 pb-20">
+      <main className="min-h-screen bg-transparent pt-28 pb-20">
         <div className="container mx-auto max-w-3xl px-6">
           <h1 className="mb-4 text-4xl font-black md:text-5xl">
             Support & Assistance

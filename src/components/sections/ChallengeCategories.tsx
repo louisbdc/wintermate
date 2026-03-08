@@ -4,7 +4,7 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal"
 
 export function ChallengeCategories() {
   return (
-    <section className="border-t border-white/5 bg-black py-24">
+    <section className="border-t border-white/5 bg-transparent py-24">
       <div className="container mx-auto px-6">
         <ScrollReveal>
           <h2 className="mb-4 text-center text-3xl font-extrabold md:text-4xl">

@@ -13,19 +13,19 @@ const MAP_PINS = [
 
 export function MapPreview() {
   return (
-    <section className="bg-black py-24">
+    <section className="bg-transparent py-24">
       <div className="container mx-auto px-6">
         <ScrollReveal>
           <h2 className="mb-4 text-center text-3xl font-extrabold md:text-5xl">
             La carte des{" "}
-            <span className="italic text-neon-orange">riders</span>
+            <span className="italic text-neon-orange">sorties</span>
           </h2>
         </ScrollReveal>
 
         <ScrollReveal delay={150}>
           <p className="mx-auto mb-12 max-w-xl text-center text-zinc-400">
-            Visualise en temps réel les riders et les sorties autour de toi.
-            Plus besoin de chercher, la communauté est déjà là.
+            Retrouve toutes les sorties planifiees pres de chez toi.
+            Rejoins un groupe, partage les frais et rencontre de nouveaux riders.
           </p>
         </ScrollReveal>
 
@@ -100,7 +100,7 @@ export function MapPreview() {
 
               <div className="absolute right-6 bottom-6 flex items-center gap-2 rounded-full border border-white/10 bg-zinc-800/80 px-4 py-2 text-xs font-bold backdrop-blur-sm">
                 <span className="h-2 w-2 animate-pulse rounded-full bg-green-400" />
-                Riders en temps réel
+                Sorties disponibles
               </div>
             </div>
           </div>

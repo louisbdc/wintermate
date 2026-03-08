@@ -24,7 +24,7 @@ export default function SortiesPage() {
       <SortieStats />
 
       {/* Final CTA */}
-      <section className="border-t border-white/5 bg-black py-24">
+      <section className="border-t border-white/5 bg-transparent py-24">
         <div className="container mx-auto px-6 text-center">
           <ScrollReveal>
             <h2 className="mb-6 text-3xl font-extrabold md:text-5xl">

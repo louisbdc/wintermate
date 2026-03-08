@@ -29,7 +29,7 @@ export default function ProgressionPage() {
       <VideoLibraryPreview />
       <MethodologyTimeline />
 
-      <section className="bg-zinc-950 py-24">
+      <section className="bg-transparent py-24">
         <div className="container mx-auto px-6 text-center">
           <ScrollReveal>
             <h2 className="mb-4 text-4xl font-black uppercase md:text-6xl">

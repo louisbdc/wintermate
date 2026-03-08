@@ -25,7 +25,7 @@ export default function TarifsPage() {
       <Navbar />
 
       {/* Hero */}
-      <section className="bg-black pt-32 pb-12">
+      <section className="bg-transparent pt-32 pb-12">
         <div className="container mx-auto px-6 text-center">
           <h1 className="mx-auto max-w-lg text-3xl leading-tight font-black md:text-5xl">
             Commence ton essai{" "}
@@ -36,7 +36,7 @@ export default function TarifsPage() {
       </section>
 
       {/* Testimonials */}
-      <section className="bg-black py-12">
+      <section className="bg-transparent py-12">
         <div className="container mx-auto px-6">
           <h2 className="mb-8 text-xl font-bold">
             Ils en parlent mieux que nous :
@@ -51,7 +51,7 @@ export default function TarifsPage() {
       </section>
 
       {/* Timeline */}
-      <section className="bg-black py-12">
+      <section className="bg-transparent py-12">
         <div className="mx-auto max-w-lg px-6">
           {timelineSteps.map((step, i) => (
             <TimelineStep
@@ -64,7 +64,7 @@ export default function TarifsPage() {
       </section>
 
       {/* Plan Selection */}
-      <section className="bg-black py-12">
+      <section className="bg-transparent py-12">
         <div className="mx-auto max-w-lg px-6">
           <h2 className="mb-8 text-center text-2xl font-black">
             Prêt à changer ta saison ?
@@ -116,7 +116,7 @@ export default function TarifsPage() {
       </section>
 
       {/* Back link */}
-      <section className="bg-black pb-16">
+      <section className="bg-transparent pb-16">
         <div className="text-center">
           <Link
             href="/"
