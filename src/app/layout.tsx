@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { Montserrat, Inter } from "next/font/google"
+import { ScrollToTop } from "@/components/ScrollToTop"
 import "./globals.css"
 
 const montserrat = Montserrat({
@@ -55,6 +56,7 @@ export default function RootLayout({
       <body
         className={`${montserrat.variable} ${inter.variable} overflow-x-hidden antialiased`}
       >
+        <ScrollToTop />
         {children}
       </body>
     </html>
