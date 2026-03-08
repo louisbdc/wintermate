@@ -19,7 +19,7 @@ export const appFeatures: readonly AppFeature[] = [
       "Classement communautaire",
       "Votes et réactions",
     ],
-    image: "/images/features/challenges.png",
+    image: "/images/features/challenges.webp",
   },
   {
     id: "carte",
@@ -32,7 +32,7 @@ export const appFeatures: readonly AppFeature[] = [
       "Création de sorties",
       "45+ stations couvertes",
     ],
-    image: "/images/features/carte.png",
+    image: "/images/features/carte.webp",
   },
   {
     id: "communaute",
@@ -45,7 +45,7 @@ export const appFeatures: readonly AppFeature[] = [
       "Partage de sessions",
       "Entraide et conseils",
     ],
-    image: "/images/features/communaute.png",
+    image: "/images/features/communaute.webp",
   },
   {
     id: "test-niveau",
@@ -58,7 +58,7 @@ export const appFeatures: readonly AppFeature[] = [
       "Programme sur mesure",
       "Suivi de progression",
     ],
-    image: "/images/features/test-niveau.png",
+    image: "/images/features/test-niveau.webp",
   },
   {
     id: "librairie",
@@ -71,6 +71,6 @@ export const appFeatures: readonly AppFeature[] = [
       "Qualité 4K",
       "Exercices pratiques",
     ],
-    image: "/images/features/librairie.png",
+    image: "/images/features/librairie.webp",
   },
 ] as const

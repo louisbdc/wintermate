@@ -39,7 +39,7 @@ export const teamMembers: readonly TeamMember[] = [
     title: "Skieur Pro FWT & Créateur de Winter Mate",
     description:
       "Né à Chamrousse, formé au ski alpin classique puis passé au freeride. Mentoré par Mickaël Bimboes, il fusionne freestyle et big mountain sur le circuit FWT Challenger.",
-    image: "/images/team/mathys.png",
+    image: "/images/team/mathys.webp",
     alt: "Mathys Fornasier en freeride",
     bio: [
       "Mathys Fornasier, né en 2001, représente la convergence entre l'héritage du ski alpin classique et les nouvelles exigences du freeride de haut niveau. Originaire de Chamrousse, station iséroise emblématique située à proximité de Grenoble, il a bénéficié d'un environnement propice au développement d'une technique de ski pure et agressive dès son plus jeune âge.",
@@ -109,7 +109,7 @@ export const teamMembers: readonly TeamMember[] = [
     title: "Skieur Big Mountain & Créateur de Contenu",
     description:
       "Basé à Courchevel, spécialiste des sauts de barres rocheuses massifs. Ses vidéos de drops à plus de 18 mètres cumulent des millions de vues sur sa chaîne de 183K abonnés.",
-    image: "/images/team/emiliano.jpg",
+    image: "/images/team/emiliano.webp",
     alt: "Emiliano Silva en big mountain",
     bio: [
       "Emiliano Silva, skieur de 25 ans basé à Courchevel, représente la branche « vlogging » et haute performance du collectif Winteractivity. Son profil illustre parfaitement l'athlète moderne dont la valeur est autant liée à sa capacité à capturer des images impressionnantes qu'à ses résultats en compétition.",
@@ -179,7 +179,7 @@ export const teamMembers: readonly TeamMember[] = [
     title: "Ex-Top 3 Mondial FWT & Entrepreneur",
     description:
       "Né à Metz, loin des Alpes, il a forgé sa légende à la force du poignet. Vainqueur de l'Xtreme de Verbier 2018, 3ème mondial FWT, et créateur de Winteractivity (434K abonnés).",
-    image: "/images/team/michael.jpeg",
+    image: "/images/team/michael.webp",
     alt: "Mickaël Bimboes, fondateur de Winteractivity",
     bio: [
       "Mickaël Bimboes, né le 23 août 1986 à Metz, occupe une place singulière dans l'histoire du ski français. Son origine géographique, loin des massifs alpins traditionnels, constitue un élément fondamental de sa narration personnelle et de sa rigueur professionnelle. Contrairement à de nombreux coureurs nés « sur les skis » en haute altitude, Bimboes a dû forger sa légitimité par une approche analytique et une polyvalence sportive rare.",

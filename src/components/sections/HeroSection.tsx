@@ -66,7 +66,7 @@ export function HeroSection() {
               className="transition hover:opacity-80"
             >
               <Image
-                src="/images/badges/google-play.png"
+                src="/images/badges/google-play.webp"
                 alt="Disponible sur Google Play"
                 width={224}
                 height={67}

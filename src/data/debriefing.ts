@@ -55,9 +55,9 @@ export const demoDebriefing: DebriefingSession = {
   location: "Les 2 Alpes",
   discipline: "Carving",
   globalScore: 78,
-  imageSrc: "/images/analyse_ski.png",
+  imageSrc: "/images/analyse_ski.webp",
   coachName: "Mathys Fornasier",
-  coachImage: "/images/team/mathys.png",
+  coachImage: "/images/team/mathys.webp",
   jointAngles: [
     { joint: "Genou gauche", angle: 64, optimal: 60, status: "optimal" },
     { joint: "Hanche", angle: 42, optimal: 45, status: "attention" },

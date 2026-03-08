@@ -60,7 +60,7 @@ export function PhoneMockup() {
           {/* Analysis Viewport */}
           <div className="relative mb-3 flex-1 overflow-hidden rounded-2xl bg-zinc-900 md:mb-4 md:rounded-3xl">
             <Image
-              src="/images/analyse_ski.png"
+              src="/images/analyse_ski.webp"
               alt="Analyse Ski"
               fill
               className="object-cover opacity-80"
