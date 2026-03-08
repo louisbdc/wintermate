@@ -16,13 +16,13 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://wintermate.fr"),
-  title: "Winter Mate - Ton coach de ski pro",
+  title: "Winter Mate - L'app de ski communautaire",
   description:
-    "L'alliance de l'expertise de Winteractivity et du coaching pro. Analyse vidéo, tutoriels 4K et communauté.",
+    "L'app de ski communautaire par Winteractivity. Challenges, sorties entre riders, progression et communauté.",
   openGraph: {
-    title: "Winter Mate - Ton coach de ski pro",
+    title: "Winter Mate - L'app de ski communautaire",
     description:
-      "L'alliance de l'expertise de Winteractivity et du coaching pro. Analyse vidéo, tutoriels 4K et communauté.",
+      "L'app de ski communautaire par Winteractivity. Challenges, sorties entre riders, progression et communauté.",
     url: "https://wintermate.fr",
     siteName: "Winter Mate",
     images: [
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
         url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Winter Mate - Ton coach de ski pro",
+        alt: "Winter Mate - L'app de ski communautaire",
       },
     ],
     locale: "fr_FR",
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Winter Mate - Ton coach de ski pro",
+    title: "Winter Mate - L'app de ski communautaire",
     description:
-      "L'alliance de l'expertise de Winteractivity et du coaching pro. Analyse vidéo, tutoriels 4K et communauté.",
+      "L'app de ski communautaire par Winteractivity. Challenges, sorties entre riders, progression et communauté.",
     images: ["/images/og-image.jpg"],
   },
 }

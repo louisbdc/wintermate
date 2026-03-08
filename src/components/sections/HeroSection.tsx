@@ -1,6 +1,6 @@
 import Image from "next/image"
-import Link from "next/link"
 import { PhoneMockup } from "@/components/ui/PhoneMockup"
+import { DownloadButton } from "@/components/ui/DownloadButton"
 
 export function HeroSection() {
   return (
@@ -8,13 +8,13 @@ export function HeroSection() {
       <div className="container mx-auto grid items-center gap-12 px-6 md:grid-cols-2">
         <div className="z-10 text-center md:text-left">
           <h1 className="mb-6 text-5xl leading-tight font-extrabold md:text-7xl">
-            Ton coach de ski pro,{" "}
-            <span className="italic text-neon-orange">partout</span>.
+            Ne ride plus{" "}
+            <span className="italic text-neon-orange">jamais seul</span>.
           </h1>
           <p className="mb-8 max-w-lg text-lg text-zinc-400 md:text-xl">
-            L&apos;alliance de l&apos;expertise de{" "}
-            <span className="font-bold italic text-white">Winteractivity</span>{" "}
-            et du coaching pro. Analyse vidéo, tutoriels 4K et communauté.
+            Challenges, sorties entre riders, progression et communauté.
+            L&apos;app de ski par{" "}
+            <span className="font-bold italic text-white">Winteractivity</span>.
           </p>
 
           {/* Social proof */}
@@ -36,12 +36,10 @@ export function HeroSection() {
 
           {/* CTA */}
           <div className="mb-8 flex flex-col items-center gap-4 sm:flex-row md:justify-start">
-            <Link
-              href="/debriefing/demo"
+            <DownloadButton
+              label="Télécharger gratuitement"
               className="btn-hover inline-block rounded-full bg-neon-orange px-8 py-3 text-sm font-bold text-white transition"
-            >
-              Voir un exemple d&apos;analyse
-            </Link>
+            />
           </div>
 
           {/* Store badges */}
