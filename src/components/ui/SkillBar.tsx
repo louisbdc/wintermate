@@ -32,11 +32,11 @@ export function SkillBar({ skill, index }: SkillBarProps) {
         <span className="text-sm font-semibold text-zinc-200">
           {skill.name}
         </span>
-        <span className="text-sm font-bold text-neon-orange">{skill.level}</span>
+        <span className="text-sm font-bold text-neon-blue">{skill.level}</span>
       </div>
       <div className="h-2 overflow-hidden rounded-full bg-zinc-800">
         <div
-          className="h-full rounded-full bg-gradient-to-r from-neon-orange to-amber-400 transition-all duration-1000 ease-out"
+          className="h-full rounded-full bg-gradient-to-r from-neon-blue to-sky-400 transition-all duration-1000 ease-out"
           style={{
             width: visible ? `${skill.level}%` : "0%",
             transitionDelay: `${index * 100}ms`,

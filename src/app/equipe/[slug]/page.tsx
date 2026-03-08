@@ -75,7 +75,7 @@ export default async function TeamMemberPage({ params }: PageProps) {
               </svg>
               Retour à l&apos;équipe
             </Link>
-            <p className="mb-2 text-sm font-bold uppercase tracking-widest text-neon-orange">
+            <p className="mb-2 text-sm font-bold uppercase tracking-widest text-neon-blue">
               {member.role}
             </p>
             <h1 className="mb-4 text-5xl font-black md:text-7xl">
@@ -94,7 +94,7 @@ export default async function TeamMemberPage({ params }: PageProps) {
               key={stat.label}
               className="flex flex-col items-center justify-center border-r border-white/5 px-6 py-8 last:border-r-0"
             >
-              <span className="text-3xl font-black text-neon-orange md:text-4xl">
+              <span className="text-3xl font-black text-neon-blue md:text-4xl">
                 {stat.value}
               </span>
               <span className="mt-1 text-center text-xs font-semibold uppercase tracking-widest text-zinc-500">
@@ -130,7 +130,7 @@ export default async function TeamMemberPage({ params }: PageProps) {
                 {member.highlights.map((highlight) => (
                   <span
                     key={highlight}
-                    className="rounded-full border border-neon-orange/20 bg-neon-orange/5 px-4 py-2 text-xs font-semibold text-neon-orange"
+                    className="rounded-full border border-neon-blue/20 bg-neon-blue/5 px-4 py-2 text-xs font-semibold text-neon-blue"
                   >
                     {highlight}
                   </span>
@@ -179,7 +179,7 @@ export default async function TeamMemberPage({ params }: PageProps) {
               <Link
                 key={other.slug}
                 href={`/equipe/${other.slug}`}
-                className="group flex items-center gap-6 rounded-2xl border border-white/5 bg-zinc-900/50 p-4 transition hover:border-neon-orange/20 hover:bg-zinc-900"
+                className="group flex items-center gap-6 rounded-2xl border border-white/5 bg-zinc-900/50 p-4 transition hover:border-neon-blue/20 hover:bg-zinc-900"
               >
                 <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-xl">
                   <Image
@@ -191,7 +191,7 @@ export default async function TeamMemberPage({ params }: PageProps) {
                   />
                 </div>
                 <div>
-                  <p className="text-xs font-bold uppercase tracking-widest text-neon-orange">
+                  <p className="text-xs font-bold uppercase tracking-widest text-neon-blue">
                     {other.role}
                   </p>
                   <h3 className="text-lg font-bold">{other.name}</h3>

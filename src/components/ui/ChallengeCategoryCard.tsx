@@ -37,7 +37,7 @@ function CategoryIcon({ icon }: { readonly icon: ChallengeCategory["icon"] }) {
 
 export function ChallengeCategoryCard({ category }: ChallengeCategoryCardProps) {
   return (
-    <div className="group relative overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/50 p-6 transition-all duration-300 hover:scale-[1.03] hover:border-white/20 hover:shadow-[0_0_30px_-5px_rgba(255,255,255,0.1)]">
+    <div className="group relative overflow-hidden rounded-2xl border border-white/10 bg-zinc-900 p-6 transition-all duration-300 hover:scale-[1.03] hover:border-white/20 hover:shadow-[0_0_30px_-5px_rgba(255,255,255,0.1)]">
       <div className={`absolute inset-0 bg-gradient-to-br ${category.color} opacity-10 transition-opacity duration-300 group-hover:opacity-20`} />
 
       <div className="relative z-10">

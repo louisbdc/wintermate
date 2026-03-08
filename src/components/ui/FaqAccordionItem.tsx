@@ -21,7 +21,7 @@ export function FaqAccordionItem({ item }: FaqAccordionItemProps) {
           {item.question}
         </span>
         <svg
-          className={`h-5 w-5 shrink-0 text-neon-orange transition-transform duration-300 ${
+          className={`h-5 w-5 shrink-0 text-neon-blue transition-transform duration-300 ${
             isOpen ? "rotate-180" : ""
           }`}
           viewBox="0 0 24 24"

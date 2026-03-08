@@ -6,13 +6,13 @@ interface MetricCardProps {
 
 const STATUS_COLORS = {
   optimal: "text-green-500 border-green-500/30",
-  attention: "text-neon-orange border-neon-orange/30",
+  attention: "text-neon-blue border-neon-blue/30",
   critique: "text-red-500 border-red-500/30",
 } as const
 
 const STATUS_BG = {
   optimal: "bg-green-500",
-  attention: "bg-neon-orange",
+  attention: "bg-neon-blue",
   critique: "bg-red-500",
 } as const
 
@@ -22,7 +22,7 @@ export function MetricCard({ metric }: MetricCardProps) {
 
   return (
     <div
-      className={`rounded-2xl border p-6 ${colors.split(" ").slice(1).join(" ")} bg-white/[0.02]`}
+      className={`rounded-2xl border p-6 ${colors.split(" ").slice(1).join(" ")} bg-zinc-900`}
     >
       <div className="mb-1 flex items-center gap-2">
         <div className={`h-2 w-2 rounded-full ${STATUS_BG[metric.status]}`} />

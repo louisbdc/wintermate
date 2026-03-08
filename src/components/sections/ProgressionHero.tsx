@@ -9,7 +9,7 @@ export function ProgressionHero() {
         <ScrollReveal>
           <h1 className="mb-6 text-5xl leading-tight font-extrabold md:text-7xl">
             Progresse à{" "}
-            <span className="italic text-neon-orange">chaque descente</span>.
+            <span className="italic text-neon-blue">chaque descente</span>.
           </h1>
           <p className="mx-auto mb-10 max-w-2xl text-lg text-zinc-400 md:text-xl">
             Librairie vidéo, test de niveau et analyse personnalisée : tout ce
@@ -21,7 +21,7 @@ export function ProgressionHero() {
           <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
               href="/debriefing/demo"
-              className="btn-hover inline-block rounded-2xl bg-neon-orange px-8 py-4 text-sm font-black uppercase tracking-wider text-white transition"
+              className="btn-hover inline-block rounded-2xl bg-neon-blue px-8 py-4 text-sm font-black uppercase tracking-wider text-white transition"
             >
               Voir un exemple d&apos;analyse
             </Link>

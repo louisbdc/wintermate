@@ -14,7 +14,7 @@ const PAGE_LINKS = [
 
 export function Footer() {
   return (
-    <footer className="border-t border-white/5 bg-transparent py-12">
+    <footer className="relative grid-fade-top border-t border-white/5 bg-transparent py-12">
       <div className="container mx-auto flex flex-col items-center gap-8 px-6">
         {/* Top row: logo + social */}
         <div className="flex w-full flex-col items-center justify-between gap-6 md:flex-row">

@@ -29,7 +29,7 @@ export default function TarifsPage() {
         <div className="container mx-auto px-6 text-center">
           <h1 className="mx-auto max-w-lg text-3xl leading-tight font-black md:text-5xl">
             Commence ton essai{" "}
-            <span className="text-neon-orange">GRATUIT</span> de 3 jours pour
+            <span className="text-neon-blue">GRATUIT</span> de 3 jours pour
             continuer
           </h1>
         </div>
@@ -76,12 +76,12 @@ export default function TarifsPage() {
                 key={plan.id}
                 className={`relative flex items-center justify-between rounded-2xl border p-6 transition ${
                   plan.highlighted
-                    ? "border-neon-orange bg-white/[0.03]"
+                    ? "border-neon-blue bg-white/[0.03]"
                     : "border-white/10"
                 }`}
               >
                 {plan.savings && (
-                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-neon-orange px-4 py-1 text-[10px] font-bold uppercase text-white">
+                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-neon-blue px-4 py-1 text-[10px] font-bold uppercase text-white">
                     {plan.savings}
                   </span>
                 )}
@@ -104,7 +104,7 @@ export default function TarifsPage() {
           </p>
 
           <div className="mt-6">
-            <DownloadButton label="Essayer GRATUITEMENT" className="btn-hover block w-full rounded-2xl bg-neon-orange py-5 text-center text-sm font-black uppercase tracking-wider text-white transition" />
+            <DownloadButton label="Essayer GRATUITEMENT" className="btn-hover block w-full rounded-2xl bg-neon-blue py-5 text-center text-sm font-black uppercase tracking-wider text-white transition" />
           </div>
 
           {plans[0].perDay && (

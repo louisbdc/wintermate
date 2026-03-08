@@ -4,12 +4,12 @@ import { DownloadButton } from "@/components/ui/DownloadButton"
 
 export function HeroSection() {
   return (
-    <header className="relative flex min-h-screen items-center bg-cover bg-center pt-20 bg-[linear-gradient(180deg,rgba(0,0,0,0.2)_0%,#000000_100%),url('https://images.unsplash.com/photo-1482867996988-29ec3a0f1fa1?q=80&w=2070&auto=format&fit=crop')]">
+    <header className="relative flex min-h-screen items-center bg-cover bg-center pt-20 bg-[linear-gradient(180deg,rgba(0,0,0,0.2)_0%,rgba(0,0,0,1)_70%,rgba(0,0,0,0)_100%),url('https://images.unsplash.com/photo-1482867996988-29ec3a0f1fa1?q=80&w=2070&auto=format&fit=crop')]">
       <div className="container mx-auto grid items-center gap-12 px-6 md:grid-cols-2">
         <div className="z-10 text-center md:text-left">
           <h1 className="mb-6 text-5xl leading-tight font-extrabold md:text-7xl">
             Ne ride plus{" "}
-            <span className="italic text-neon-orange">jamais seul</span>.
+            <span className="italic text-neon-blue">jamais seul</span>.
           </h1>
           <p className="mb-8 max-w-lg text-lg text-zinc-400 md:text-xl">
             Challenges, sorties entre riders, progression et communauté.
@@ -20,7 +20,7 @@ export function HeroSection() {
           {/* Social proof */}
           <div className="mb-8 flex items-center justify-center gap-3 md:justify-start">
             <div className="flex -space-x-2">
-              {["bg-neon-orange", "bg-amber-500", "bg-yellow-500", "bg-orange-600"].map((bg, i) => (
+              {["bg-neon-blue", "bg-blue-400", "bg-sky-400", "bg-blue-600"].map((bg, i) => (
                 <div
                   key={i}
                   className={`flex h-8 w-8 items-center justify-center rounded-full border-2 border-black text-[10px] font-bold ${bg}`}
@@ -38,7 +38,7 @@ export function HeroSection() {
           <div className="mb-8 flex flex-col items-center gap-4 sm:flex-row md:justify-start">
             <DownloadButton
               label="Télécharger gratuitement"
-              className="btn-hover inline-block rounded-full bg-neon-orange px-8 py-3 text-sm font-bold text-white transition"
+              className="btn-hover inline-block rounded-full bg-neon-blue px-8 py-3 text-sm font-bold text-white transition"
             />
           </div>
 

@@ -48,7 +48,7 @@ export function DownloadButton({ label, className }: DownloadButtonProps) {
       rel="noopener noreferrer"
       className={
         className ??
-        "btn-hover inline-block w-full max-w-lg rounded-2xl bg-neon-orange py-5 text-center text-sm font-black uppercase tracking-wider text-white transition"
+        "btn-hover inline-block w-full max-w-lg rounded-2xl bg-neon-blue py-5 text-center text-sm font-black uppercase tracking-wider text-white transition"
       }
     >
       {text}

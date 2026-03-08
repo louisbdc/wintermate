@@ -35,7 +35,7 @@ export default function ChallengesPage() {
           </p>
           <DownloadButton
             label="Télécharger Winter Mate"
-            className="btn-hover inline-block w-full max-w-md rounded-2xl bg-neon-orange py-5 text-center text-sm font-black uppercase tracking-wider text-white transition"
+            className="btn-hover inline-block w-full max-w-md rounded-2xl bg-neon-blue py-5 text-center text-sm font-black uppercase tracking-wider text-white transition"
           />
         </div>
       </section>

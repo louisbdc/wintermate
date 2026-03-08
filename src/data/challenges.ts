@@ -39,7 +39,7 @@ export const challengeCategories: readonly ChallengeCategory[] = [
     title: "Carving",
     description: "Inclinaison maximale et coupes parfaites sur piste damée.",
     icon: "carving",
-    color: "from-neon-orange to-amber-500",
+    color: "from-neon-blue to-sky-400",
   },
   {
     id: "fail",

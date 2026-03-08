@@ -1,14 +1,34 @@
 import { ScrollReveal } from "@/components/ui/ScrollReveal"
+import { FranceMap } from "@/components/ui/FranceMap"
 
-const MAP_PINS = [
-  { top: "22%", left: "35%", delay: 0 },
-  { top: "38%", left: "52%", delay: 0.4 },
-  { top: "30%", left: "60%", delay: 0.8 },
-  { top: "50%", left: "42%", delay: 1.2 },
-  { top: "45%", left: "68%", delay: 0.6 },
-  { top: "28%", left: "75%", delay: 1.0 },
-  { top: "55%", left: "55%", delay: 1.4 },
-  { top: "35%", left: "30%", delay: 0.2 },
+const SORTIE_CARDS = [
+  {
+    station: "Val d'Isere",
+    date: "Dim. 15 mars",
+    level: "Expert",
+    spots: "2/6",
+    top: "8%",
+    left: "65%",
+    delay: 0.5,
+  },
+  {
+    station: "Chamrousse",
+    date: "Sam. 14 mars",
+    level: "Intermediaire",
+    spots: "3/4",
+    top: "55%",
+    left: "3%",
+    delay: 1.0,
+  },
+  {
+    station: "Cauterets",
+    date: "Lun. 16 mars",
+    level: "Tous niveaux",
+    spots: "1/8",
+    top: "75%",
+    left: "55%",
+    delay: 1.5,
+  },
 ] as const
 
 export function MapPreview() {
@@ -18,89 +38,97 @@ export function MapPreview() {
         <ScrollReveal>
           <h2 className="mb-4 text-center text-3xl font-extrabold md:text-5xl">
             La carte des{" "}
-            <span className="italic text-neon-orange">sorties</span>
+            <span className="italic text-neon-blue">sorties</span>
           </h2>
         </ScrollReveal>
 
         <ScrollReveal delay={150}>
           <p className="mx-auto mb-12 max-w-xl text-center text-zinc-400">
             Retrouve toutes les sorties planifiees pres de chez toi.
-            Rejoins un groupe, partage les frais et rencontre de nouveaux riders.
+            Rejoins un groupe, partage les frais et rencontre de nouveaux
+            riders.
           </p>
         </ScrollReveal>
 
         <ScrollReveal delay={300}>
-          <div className="relative mx-auto max-w-4xl overflow-hidden rounded-3xl border border-white/10 bg-zinc-900">
-            {/* Map grid background */}
-            <div className="relative aspect-[16/9]">
-              <svg
-                className="absolute inset-0 h-full w-full opacity-10"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <defs>
-                  <pattern
-                    id="grid"
-                    width="40"
-                    height="40"
-                    patternUnits="userSpaceOnUse"
-                  >
-                    <path
-                      d="M 40 0 L 0 0 0 40"
-                      fill="none"
-                      stroke="white"
-                      strokeWidth="0.5"
-                    />
-                  </pattern>
-                </defs>
-                <rect width="100%" height="100%" fill="url(#grid)" />
-              </svg>
+          <div className="relative mx-auto max-w-5xl overflow-hidden rounded-3xl border border-white/10 bg-zinc-900 p-2 md:p-4">
+            <div className="relative aspect-[16/10] overflow-hidden rounded-2xl bg-zinc-950">
+              {/* Map */}
+              <div className="absolute inset-0 flex items-center justify-center p-8 md:p-12">
+                <FranceMap className="h-full w-auto max-w-full" />
+              </div>
 
-              {/* Stylized terrain shapes */}
-              <svg
-                className="absolute inset-0 h-full w-full opacity-5"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 800 450"
-                preserveAspectRatio="none"
-              >
-                <path
-                  d="M0 300 Q200 200 400 280 T800 250 L800 450 L0 450 Z"
-                  fill="white"
-                />
-                <path
-                  d="M0 350 Q300 280 500 320 T800 300 L800 450 L0 450 Z"
-                  fill="white"
-                />
-              </svg>
+              {/* Gradient edges */}
+              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-transparent to-zinc-950/40" />
+              <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-zinc-950/30 via-transparent to-zinc-950/30" />
 
-              {/* Animated pin markers */}
-              {MAP_PINS.map((pin, index) => (
+              {/* Floating sortie cards */}
+              {SORTIE_CARDS.map((card) => (
                 <div
-                  key={index}
-                  className="absolute"
-                  style={{ top: pin.top, left: pin.left }}
+                  key={card.station}
+                  className="absolute hidden md:block"
+                  style={{
+                    top: card.top,
+                    left: card.left,
+                    animation: "float 4s ease-in-out infinite",
+                    animationDelay: `${card.delay}s`,
+                  }}
                 >
-                  <div
-                    className="h-3 w-3 rounded-full bg-neon-orange shadow-[0_0_12px_rgba(249,115,22,0.6)]"
-                    style={{
-                      animation: `pulse-point 2s infinite`,
-                      animationDelay: `${pin.delay}s`,
-                    }}
-                  />
+                  <div className="w-48 rounded-xl border border-white/10 bg-zinc-900/90 p-3 shadow-xl backdrop-blur-sm">
+                    <div className="mb-1 flex items-center justify-between">
+                      <span className="text-[10px] font-bold text-neon-blue">
+                        {card.date}
+                      </span>
+                      <span className="rounded-full bg-white/10 px-2 py-0.5 text-[9px] font-semibold text-zinc-300">
+                        {card.level}
+                      </span>
+                    </div>
+                    <div className="text-xs font-bold text-white">
+                      {card.station}
+                    </div>
+                    <div className="mt-1 flex items-center justify-between">
+                      <span className="text-[10px] text-zinc-500">
+                        Places : {card.spots}
+                      </span>
+                      <span className="text-[10px] font-semibold text-neon-blue">
+                        Rejoindre →
+                      </span>
+                    </div>
+                  </div>
                 </div>
               ))}
 
-              {/* Gradient overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-transparent to-zinc-900/50" />
-
-              {/* Annotation badges */}
-              <div className="absolute top-6 left-6 flex items-center gap-2 rounded-full border border-white/10 bg-zinc-800/80 px-4 py-2 text-xs font-bold backdrop-blur-sm">
-                <span className="h-2 w-2 rounded-full bg-neon-orange" />
+              {/* Badges */}
+              <div className="absolute top-4 left-4 flex items-center gap-2 rounded-full border border-white/10 bg-zinc-800/80 px-4 py-2 text-xs font-bold backdrop-blur-sm">
+                <span className="h-2 w-2 rounded-full bg-neon-blue" />
                 45+ stations
               </div>
 
-              <div className="absolute right-6 bottom-6 flex items-center gap-2 rounded-full border border-white/10 bg-zinc-800/80 px-4 py-2 text-xs font-bold backdrop-blur-sm">
+              <div className="absolute right-4 bottom-4 flex items-center gap-2 rounded-full border border-white/10 bg-zinc-800/80 px-4 py-2 text-xs font-bold backdrop-blur-sm">
                 <span className="h-2 w-2 animate-pulse rounded-full bg-green-400" />
                 Sorties disponibles
+              </div>
+
+              {/* Search bar */}
+              <div className="absolute top-4 left-1/2 -translate-x-1/2">
+                <div className="flex items-center gap-2 rounded-full border border-white/10 bg-zinc-800/80 px-5 py-2.5 backdrop-blur-sm">
+                  <svg
+                    className="h-3.5 w-3.5 text-zinc-500"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                    />
+                  </svg>
+                  <span className="text-xs text-zinc-500">
+                    Rechercher une station...
+                  </span>
+                </div>
               </div>
             </div>
           </div>

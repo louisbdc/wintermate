@@ -29,7 +29,7 @@ export default function SortiesPage() {
           <ScrollReveal>
             <h2 className="mb-6 text-3xl font-extrabold md:text-5xl">
               Prêt à rider{" "}
-              <span className="italic text-neon-orange">ensemble</span> ?
+              <span className="italic text-neon-blue">ensemble</span> ?
             </h2>
           </ScrollReveal>
 

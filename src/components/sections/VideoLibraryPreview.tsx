@@ -8,7 +8,7 @@ export function VideoLibraryPreview() {
       <div className="container mx-auto mb-12 px-6">
         <ScrollReveal>
           <h2 className="mb-4 text-center text-4xl font-black uppercase md:text-left md:text-6xl">
-            <span className="text-neon-orange">200+</span> tutoriels vidéo.
+            <span className="text-neon-blue">200+</span> tutoriels vidéo.
           </h2>
           <p className="max-w-2xl text-lg text-zinc-400">
             Du débutant au skieur confirmé, retrouve des tutoriels 4K filmés et

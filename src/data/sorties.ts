@@ -13,19 +13,19 @@ export interface SortieStat {
 
 export const sortieFeatures: readonly SortieFeature[] = [
   {
-    id: "trouve",
+    id: "planifie",
     number: "01.",
-    title: "Trouve",
+    title: "Planifie",
     description:
-      "Repère les riders autour de toi grâce à la carte interactive. Filtre par niveau, station et disponibilité.",
-    highlighted: true,
+      "Cree une sortie en choisissant la date, la station, le nombre de places et le niveau requis. Partage les frais de trajet ou de forfait avec le groupe.",
+    highlighted: false,
   },
   {
-    id: "cree",
+    id: "rejoins",
     number: "02.",
-    title: "Crée",
+    title: "Rejoins",
     description:
-      "Organise ta propre sortie : choisis la date, la station, le nombre de places et le niveau requis.",
+      "Parcours la carte ou la liste des sorties disponibles. Filtre par station, date et niveau pour trouver la session qui te correspond.",
     highlighted: false,
   },
   {
@@ -33,7 +33,7 @@ export const sortieFeatures: readonly SortieFeature[] = [
     number: "03.",
     title: "Ride",
     description:
-      "Rejoins le groupe, partage ta session et progresse ensemble. Après la sortie, échangez vos retours.",
+      "Retrouve ton groupe sur les pistes, rencontre de nouveaux riders et partage tes sessions. La montagne, c'est mieux a plusieurs.",
     highlighted: false,
   },
 ] as const

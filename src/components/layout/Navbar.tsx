@@ -34,7 +34,7 @@ export function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className="transition hover:text-neon-orange"
+              className="transition hover:text-neon-blue"
             >
               {link.label}
             </a>
@@ -85,7 +85,7 @@ export function Navbar() {
               <a
                 key={link.href}
                 href={link.href}
-                className="transition hover:text-neon-orange"
+                className="transition hover:text-neon-blue"
                 onClick={() => setMobileOpen(false)}
               >
                 {link.label}

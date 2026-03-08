@@ -9,10 +9,10 @@ export function FeatureOverviewCard({ feature }: FeatureOverviewCardProps) {
   return (
     <Link
       href={feature.href}
-      className="group relative overflow-hidden rounded-2xl border border-white/5 bg-zinc-900/50 p-8 transition hover:border-white/20"
+      className="group relative overflow-hidden rounded-2xl border border-white/5 bg-zinc-900 p-8 transition hover:border-white/20"
     >
       {/* Orange accent line */}
-      <div className="absolute top-0 left-0 h-1 w-full bg-neon-orange" />
+      <div className="absolute top-0 left-0 h-1 w-full bg-neon-blue" />
 
       <h3 className="mb-3 text-2xl font-black uppercase tracking-tight">
         {feature.title}
@@ -20,7 +20,7 @@ export function FeatureOverviewCard({ feature }: FeatureOverviewCardProps) {
       <p className="mb-6 text-sm leading-relaxed text-zinc-400">
         {feature.description}
       </p>
-      <span className="inline-flex items-center gap-1 text-sm font-bold text-neon-orange transition group-hover:gap-2">
+      <span className="inline-flex items-center gap-1 text-sm font-bold text-neon-blue transition group-hover:gap-2">
         Découvrir
         <svg
           className="h-4 w-4"

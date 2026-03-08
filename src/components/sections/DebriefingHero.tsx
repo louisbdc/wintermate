@@ -33,7 +33,7 @@ export function DebriefingHero({ session }: DebriefingHeroProps) {
                 <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-zinc-400">
                   {session.location}
                 </span>
-                <span className="rounded-full border border-neon-orange/30 bg-neon-orange/10 px-3 py-1 text-xs text-neon-orange">
+                <span className="rounded-full border border-neon-blue/30 bg-neon-blue/10 px-3 py-1 text-xs text-neon-blue">
                   {session.discipline}
                 </span>
               </div>

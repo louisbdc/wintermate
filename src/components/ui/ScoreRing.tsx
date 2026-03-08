@@ -5,7 +5,7 @@ interface ScoreRingProps {
 
 function getScoreColor(score: number): string {
   if (score >= 80) return "#22c55e"
-  if (score >= 50) return "#F97316"
+  if (score >= 50) return "#3B82F6"
   return "#ef4444"
 }
 

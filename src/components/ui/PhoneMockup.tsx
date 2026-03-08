@@ -78,7 +78,7 @@ export function PhoneMockup() {
 
             {/* Skeleton overlay */}
             <svg
-              className="absolute inset-0 h-full w-full text-neon-orange opacity-60"
+              className="absolute inset-0 h-full w-full text-neon-blue opacity-60"
               viewBox="0 0 100 100"
             >
               <line x1="70" y1="38" x2="65" y2="46" stroke="currentColor" strokeWidth="0.7" />
@@ -92,7 +92,7 @@ export function PhoneMockup() {
             {/* Angle info card */}
             <div className="absolute right-3 bottom-3 left-3 rounded-lg border border-white/10 bg-black/80 px-3 py-2 backdrop-blur-md">
               <div className="flex items-center justify-between">
-                <span className="text-[9px] font-bold text-neon-orange md:text-[10px]">
+                <span className="text-[9px] font-bold text-neon-blue md:text-[10px]">
                   ANGLE CARRE : 64°
                 </span>
                 <span className="text-[9px] font-medium text-white md:text-[10px]">OPTIMAL</span>
@@ -139,14 +139,14 @@ export function PhoneMockup() {
             </button>
             {/* Trophy / Progression */}
             <button className="flex flex-col items-center gap-0.5">
-              <svg className="h-4 w-4 text-neon-orange" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+              <svg className="h-4 w-4 text-neon-blue" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M6 9H4a2 2 0 01-2-2V5a2 2 0 012-2h2" />
                 <path d="M18 9h2a2 2 0 002-2V5a2 2 0 00-2-2h-2" />
                 <rect x="6" y="3" width="12" height="12" rx="2" />
                 <path d="M12 15v4" />
                 <path d="M8 21h8" />
               </svg>
-              <span className="text-[7px] text-neon-orange">Progrès</span>
+              <span className="text-[7px] text-neon-blue">Progrès</span>
             </button>
             {/* Profile */}
             <button className="flex flex-col items-center gap-0.5">

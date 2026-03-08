@@ -6,7 +6,7 @@ interface TimelineStepProps {
 }
 
 function StepIcon({ icon, active }: { readonly icon: string; readonly active: boolean }) {
-  const bgColor = active ? "bg-neon-orange" : "bg-zinc-700"
+  const bgColor = active ? "bg-neon-blue" : "bg-zinc-700"
 
   return (
     <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-full ${bgColor}`}>

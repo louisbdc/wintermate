@@ -45,19 +45,19 @@ export default function ConfidentialitePage() {
                 </h3>
                 <ul className="space-y-2 text-sm text-zinc-400">
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Nom et prenom
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Adresse e-mail
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Photo de profil
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Identifiant utilisateur (UID Firebase)
                   </li>
                 </ul>
@@ -69,15 +69,15 @@ export default function ConfidentialitePage() {
                 </h3>
                 <ul className="space-y-2 text-sm text-zinc-400">
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Photos et videos ajoutees dans l&apos;app
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Messages echanges avec les coachs ou la communaute
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Commentaires, publications, interactions sociales
                   </li>
                 </ul>
@@ -89,15 +89,15 @@ export default function ConfidentialitePage() {
                 </h3>
                 <ul className="space-y-2 text-sm text-zinc-400">
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Donnees de performance (latence, chargement video, etc.)
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Donnees de pannes (Crashlytics)
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Modele de l&apos;appareil, systeme d&apos;exploitation
                   </li>
                 </ul>
@@ -129,47 +129,47 @@ export default function ConfidentialitePage() {
                 </h3>
                 <ul className="space-y-2 text-sm text-zinc-400">
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Creer et gerer votre compte
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Vous permettre d&apos;envoyer des videos pour coaching
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Fournir des analyses videos personnalisees
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Vous connecter avec la communaute
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Ameliorer la stabilite et les performances
                   </li>
                 </ul>
               </div>
 
-              <div className="rounded-2xl border border-neon-orange/20 bg-neon-orange/5 p-6">
-                <h3 className="mb-3 text-lg font-bold text-neon-orange">
+              <div className="rounded-2xl border border-neon-blue/20 bg-neon-blue/5 p-6">
+                <h3 className="mb-3 text-lg font-bold text-neon-blue">
                   Pas d&apos;utilisation publicitaire
                 </h3>
                 <ul className="space-y-2 text-sm text-zinc-300">
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Aucun tracking publicitaire
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Aucune revente de donnees
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Aucun partage avec des annonceurs
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Aucun suivi inter-applications
                   </li>
                 </ul>
@@ -182,15 +182,15 @@ export default function ConfidentialitePage() {
                 </p>
                 <ul className="space-y-2 text-sm text-zinc-400">
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Vous envoyer des informations sur votre compte
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Vous notifier de nouvelles fonctionnalites
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Vous envoyer, si vous l&apos;acceptez, une newsletter
                     (desinscription possible a tout moment)
                   </li>
@@ -222,8 +222,8 @@ export default function ConfidentialitePage() {
                   Stockage et streaming securise des videos.
                 </p>
               </div>
-              <div className="rounded-2xl border border-neon-orange/20 bg-neon-orange/5 p-6">
-                <h3 className="text-base font-bold text-neon-orange">
+              <div className="rounded-2xl border border-neon-blue/20 bg-neon-blue/5 p-6">
+                <h3 className="text-base font-bold text-neon-blue">
                   Aucun partenaire publicitaire
                 </h3>
                 <p className="mt-1 text-sm text-zinc-300">
@@ -245,15 +245,15 @@ export default function ConfidentialitePage() {
               </p>
               <ul className="space-y-2 text-sm text-zinc-400">
                 <li className="flex items-start gap-2">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                   Supprimer vos videos
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                   Modifier votre profil
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                   Demander la suppression complete de votre compte (avec
                   toutes vos donnees)
                 </li>
@@ -262,7 +262,7 @@ export default function ConfidentialitePage() {
                 Par simple demande a :{" "}
                 <a
                   href="mailto:hello@wintermate.fr"
-                  className="text-neon-orange transition hover:underline"
+                  className="text-neon-blue transition hover:underline"
                 >
                   hello@wintermate.fr
                 </a>
@@ -281,23 +281,23 @@ export default function ConfidentialitePage() {
               </p>
               <ul className="space-y-2 text-sm text-zinc-400">
                 <li className="flex items-start gap-2">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                   Acceder a vos donnees
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                   Modifier vos donnees
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                   Demander leur suppression
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                   Retirer votre consentement (newsletter, localisation...)
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                   Obtenir une copie exportee de vos donnees
                 </li>
               </ul>
@@ -313,19 +313,19 @@ export default function ConfidentialitePage() {
               </p>
               <ul className="space-y-2 text-sm text-zinc-400">
                 <li className="flex items-start gap-2">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                   Cryptage HTTPS
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                   Stockage securise Firebase et Cloudflare
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                   Acces strictement limite a l&apos;equipe
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                   Journalisation interne pour prevenir les acces non
                   autorises
                 </li>

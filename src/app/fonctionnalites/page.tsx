@@ -22,7 +22,7 @@ export default function FonctionnalitesPage() {
             <div className="mx-auto mb-16 max-w-2xl text-center">
               <h1 className="mb-4 text-4xl font-black uppercase leading-tight md:text-6xl">
                 Toutes les{" "}
-                <span className="text-neon-orange">fonctionnalités</span>
+                <span className="text-neon-blue">fonctionnalités</span>
               </h1>
               <p className="text-lg text-zinc-400">
                 Winter Mate regroupe tout ce dont tu as besoin pour progresser,

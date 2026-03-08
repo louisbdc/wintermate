@@ -8,7 +8,7 @@ export function MethodologyTimeline() {
         <ScrollReveal>
           <h2 className="mb-4 text-center text-4xl font-black uppercase md:text-6xl">
             La méthode{" "}
-            <span className="text-neon-orange">Winter Mate</span>.
+            <span className="text-neon-blue">Winter Mate</span>.
           </h2>
           <p className="mx-auto mb-16 max-w-2xl text-center text-lg text-zinc-400">
             Un cycle d&apos;apprentissage simple et efficace pour progresser à
@@ -24,7 +24,7 @@ export function MethodologyTimeline() {
               <ScrollReveal key={step.number} delay={index * 150}>
                 <div className="flex gap-6">
                   <div className="flex flex-col items-center">
-                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-neon-orange text-sm font-black text-white">
+                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-neon-blue text-sm font-black text-white">
                       {step.number}
                     </div>
                     {!isLast && (

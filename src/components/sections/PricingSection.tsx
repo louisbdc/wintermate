@@ -4,17 +4,17 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal"
 
 export function PricingSection() {
   return (
-    <section className="glow-top overflow-hidden bg-transparent py-24">
+    <section className="glow-top grid-fade-top overflow-hidden bg-transparent py-24">
       <div className="container mx-auto px-6">
         <div className="mx-auto max-w-2xl text-center">
           <ScrollReveal>
             <h2 className="mb-4 text-4xl font-black uppercase leading-tight md:text-6xl">
               Prêt à changer <br />
-              <span className="text-neon-orange">ta saison</span> ?
+              <span className="text-neon-blue">ta saison</span> ?
             </h2>
             <p className="mb-12 text-lg text-zinc-400">
               Commence ton essai{" "}
-              <span className="font-bold text-neon-orange">GRATUIT</span> de 3
+              <span className="font-bold text-neon-blue">GRATUIT</span> de 3
               jours
             </p>
           </ScrollReveal>
@@ -26,12 +26,12 @@ export function PricingSection() {
                   key={plan.id}
                   className={`relative flex items-center justify-between rounded-2xl border p-6 transition ${
                     plan.highlighted
-                      ? "border-neon-orange bg-white/[0.03]"
+                      ? "border-neon-blue bg-zinc-900"
                       : "border-white/10 hover:border-white/30"
                   }`}
                 >
                   {plan.savings && (
-                    <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-neon-orange px-4 py-1 text-[10px] font-bold uppercase text-white">
+                    <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-neon-blue px-4 py-1 text-[10px] font-bold uppercase text-white">
                       {plan.savings}
                     </span>
                   )}

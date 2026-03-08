@@ -8,7 +8,7 @@ export function SortieFeatures() {
         <ScrollReveal>
           <h2 className="mb-16 text-center text-3xl font-extrabold md:text-5xl">
             Comment ça{" "}
-            <span className="italic text-neon-orange">marche</span> ?
+            <span className="italic text-neon-blue">marche</span> ?
           </h2>
         </ScrollReveal>
 
@@ -19,7 +19,7 @@ export function SortieFeatures() {
                 <div
                   className={`text-4xl font-black ${
                     feature.highlighted
-                      ? "text-neon-orange"
+                      ? "text-neon-blue"
                       : "text-white"
                   }`}
                 >

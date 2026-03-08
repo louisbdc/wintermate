@@ -21,7 +21,7 @@ export function TeamCard({ member }: TeamCardProps) {
           sizes="(max-width: 768px) 300px, 450px"
         />
         <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/80 via-transparent to-transparent p-8 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-          <p className="mb-1 text-xs font-bold uppercase tracking-widest text-neon-orange">
+          <p className="mb-1 text-xs font-bold uppercase tracking-widest text-neon-blue">
             {member.role}
           </p>
           <h4 className="text-2xl font-black">{member.displayName}</h4>
@@ -29,7 +29,7 @@ export function TeamCard({ member }: TeamCardProps) {
         </div>
       </div>
       <div className="mt-6 px-4">
-        <p className="mb-1 text-xs font-bold uppercase tracking-widest text-neon-orange">
+        <p className="mb-1 text-xs font-bold uppercase tracking-widest text-neon-blue">
           {member.role}
         </p>
         <h4 className="text-xl font-bold">{member.name}</h4>

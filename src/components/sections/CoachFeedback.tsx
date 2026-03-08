@@ -8,7 +8,7 @@ interface CoachFeedbackProps {
 
 const CATEGORY_CONFIG = {
   positif: { label: "Points positifs", color: "bg-green-500", textColor: "text-green-400" },
-  amelioration: { label: "Axes d'amélioration", color: "bg-neon-orange", textColor: "text-neon-orange" },
+  amelioration: { label: "Axes d'amélioration", color: "bg-neon-blue", textColor: "text-neon-blue" },
   exercice: { label: "Exercices", color: "bg-blue-500", textColor: "text-blue-400" },
 } as const
 
@@ -19,7 +19,7 @@ export function CoachFeedback({ session }: CoachFeedbackProps) {
   return (
     <section className="border-t border-white/5 bg-transparent py-16">
       <div className="container mx-auto px-6">
-        <div className="mx-auto max-w-3xl rounded-[2rem] border border-white/10 bg-white/[0.02] p-8 backdrop-blur-sm md:p-12">
+        <div className="mx-auto max-w-3xl rounded-[2rem] border border-white/10 bg-zinc-900 p-8 backdrop-blur-sm md:p-12">
           <div className="mb-8 flex items-center gap-4">
             <div className="relative h-14 w-14 overflow-hidden rounded-full border border-white/20">
               <Image

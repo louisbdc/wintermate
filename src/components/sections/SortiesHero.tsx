@@ -8,14 +8,14 @@ export function SortiesHero() {
         <ScrollReveal>
           <h1 className="mb-6 text-5xl leading-tight font-extrabold md:text-7xl">
             Ne ride plus{" "}
-            <span className="italic text-neon-orange">jamais seul</span>.
+            <span className="italic text-neon-blue">jamais seul</span>.
           </h1>
         </ScrollReveal>
 
         <ScrollReveal delay={150}>
           <p className="mx-auto mb-10 max-w-2xl text-lg text-zinc-400 md:text-xl">
-            Trouve des riders près de toi, organise des sorties et partage tes
-            sessions. La communauté Winter Mate t&apos;attend sur les pistes.
+            Planifie des sorties, partage les frais et rencontre de nouveaux
+            riders. Organise tes sessions de ski en quelques clics.
           </p>
         </ScrollReveal>
 

@@ -7,7 +7,7 @@ interface VideoAnalysisProps {
 
 const STATUS_COLORS = {
   optimal: "text-green-400",
-  attention: "text-neon-orange",
+  attention: "text-neon-blue",
   critique: "text-red-400",
 } as const
 
@@ -21,7 +21,7 @@ export function VideoAnalysis({ session }: VideoAnalysisProps) {
 
         <div className="mx-auto max-w-3xl">
           <div className="relative overflow-hidden rounded-3xl border border-white/5 bg-zinc-900">
-            <span className="absolute top-4 left-4 z-30 rounded-full border border-neon-orange/30 bg-black/80 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-neon-orange backdrop-blur-md">
+            <span className="absolute top-4 left-4 z-30 rounded-full border border-neon-blue/30 bg-black/80 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-neon-blue backdrop-blur-md">
               Analyse Pro
             </span>
 
@@ -46,7 +46,7 @@ export function VideoAnalysis({ session }: VideoAnalysisProps) {
 
               {/* Skeleton overlay */}
               <svg
-                className="absolute inset-0 h-full w-full text-neon-orange opacity-60"
+                className="absolute inset-0 h-full w-full text-neon-blue opacity-60"
                 viewBox="0 0 100 100"
               >
                 <line x1="70" y1="38" x2="65" y2="46" stroke="currentColor" strokeWidth="0.7" />

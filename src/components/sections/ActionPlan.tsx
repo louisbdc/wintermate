@@ -6,7 +6,7 @@ interface ActionPlanProps {
 
 const DIFFICULTY_CONFIG = {
   debutant: { label: "Débutant", color: "bg-green-500/10 text-green-400 border-green-500/20" },
-  intermediaire: { label: "Intermédiaire", color: "bg-neon-orange/10 text-neon-orange border-neon-orange/20" },
+  intermediaire: { label: "Intermédiaire", color: "bg-neon-blue/10 text-neon-blue border-neon-blue/20" },
   avance: { label: "Avancé", color: "bg-red-500/10 text-red-400 border-red-500/20" },
 } as const
 

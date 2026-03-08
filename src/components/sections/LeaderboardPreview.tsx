@@ -25,7 +25,7 @@ export function LeaderboardPreview() {
               <div className="mb-3 flex h-16 w-16 items-center justify-center rounded-full border border-white/10 bg-zinc-800 text-3xl">
                 {second.avatar}
               </div>
-              <div className="w-full rounded-t-2xl border border-white/10 bg-zinc-900/50 px-4 py-8 text-center">
+              <div className="w-full rounded-t-2xl border border-white/10 bg-zinc-900 px-4 py-8 text-center">
                 <p className="text-sm font-bold">{second.name}</p>
                 <p className="mt-1 text-xs text-zinc-500">
                   {second.points.toLocaleString("fr-FR")} pts
@@ -35,12 +35,12 @@ export function LeaderboardPreview() {
 
             {/* 1st place */}
             <div className="flex w-1/3 flex-col items-center">
-              <div className="mb-3 flex h-20 w-20 items-center justify-center rounded-full border-2 border-neon-orange bg-neon-orange/10 text-4xl shadow-[0_0_20px_rgba(249,115,22,0.3)]">
+              <div className="mb-3 flex h-20 w-20 items-center justify-center rounded-full border-2 border-neon-blue bg-neon-blue/10 text-4xl shadow-[0_0_20px_rgba(59,130,246,0.3)]">
                 {first.avatar}
               </div>
-              <div className="w-full rounded-t-2xl border border-neon-orange/30 bg-neon-orange/5 px-4 py-12 text-center">
+              <div className="w-full rounded-t-2xl border border-neon-blue/30 bg-neon-blue/5 px-4 py-12 text-center">
                 <p className="text-lg font-black">{first.name}</p>
-                <p className="mt-1 text-sm font-semibold text-neon-orange">
+                <p className="mt-1 text-sm font-semibold text-neon-blue">
                   {first.points.toLocaleString("fr-FR")} pts
                 </p>
               </div>
@@ -51,7 +51,7 @@ export function LeaderboardPreview() {
               <div className="mb-3 flex h-16 w-16 items-center justify-center rounded-full border border-white/10 bg-zinc-800 text-3xl">
                 {third.avatar}
               </div>
-              <div className="w-full rounded-t-2xl border border-white/10 bg-zinc-900/50 px-4 py-6 text-center">
+              <div className="w-full rounded-t-2xl border border-white/10 bg-zinc-900 px-4 py-6 text-center">
                 <p className="text-sm font-bold">{third.name}</p>
                 <p className="mt-1 text-xs text-zinc-500">
                   {third.points.toLocaleString("fr-FR")} pts

@@ -23,11 +23,11 @@ export function HowChallengesWork() {
                 <div className="flex gap-6">
                   {/* Timeline column */}
                   <div className="flex flex-col items-center">
-                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border-2 border-neon-orange bg-neon-orange/10 font-montserrat text-sm font-black text-neon-orange">
+                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border-2 border-neon-blue bg-neon-blue/10 font-montserrat text-sm font-black text-neon-blue">
                       {step.number}
                     </div>
                     {!isLast && (
-                      <div className="my-2 h-full w-px bg-gradient-to-b from-neon-orange/40 to-transparent" />
+                      <div className="my-2 h-full w-px bg-gradient-to-b from-neon-blue/40 to-transparent" />
                     )}
                   </div>
 

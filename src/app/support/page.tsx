@@ -25,7 +25,7 @@ export default function SupportPage() {
           </p>
 
           {/* Contact rapide */}
-          <section className="mb-12 rounded-2xl border border-neon-orange/20 bg-neon-orange/5 p-8">
+          <section className="mb-12 rounded-2xl border border-neon-blue/20 bg-neon-blue/5 p-8">
             <h2 className="mb-4 text-2xl font-bold">Contact rapide</h2>
             <p className="text-zinc-300">
               <span className="font-semibold text-white">
@@ -33,7 +33,7 @@ export default function SupportPage() {
               </span>{" "}
               <a
                 href="mailto:hello@wintermate.fr"
-                className="text-neon-orange transition hover:underline"
+                className="text-neon-blue transition hover:underline"
               >
                 hello@wintermate.fr
               </a>
@@ -56,15 +56,15 @@ export default function SupportPage() {
                 </h3>
                 <ul className="space-y-2 text-sm text-zinc-400">
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Redémarre ton téléphone
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Vérifie que tu as la dernière version de l&apos;app
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Si ça persiste : note le modèle de ton appareil + version
                     iOS/Android et contacte-nous
                   </li>
@@ -77,15 +77,15 @@ export default function SupportPage() {
                 </h3>
                 <ul className="space-y-2 text-sm text-zinc-400">
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Vérifie ta connexion
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Réduis la qualité de la vidéo si elle dépasse 4K
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Réessaie après avoir relancé l&apos;app
                   </li>
                 </ul>
@@ -97,11 +97,11 @@ export default function SupportPage() {
                 </h3>
                 <ul className="space-y-2 text-sm text-zinc-400">
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Va dans Réglages &gt; Notifications
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Active les notifications pour Winter Mate
                   </li>
                 </ul>
@@ -120,15 +120,15 @@ export default function SupportPage() {
                 </h3>
                 <ul className="space-y-2 text-sm text-zinc-400">
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Vérifie ton e-mail
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Essaie &quot;Mot de passe oublié&quot;
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Si tu as changé d&apos;e-mail, contacte-nous
                   </li>
                 </ul>
@@ -143,15 +143,15 @@ export default function SupportPage() {
                 </p>
                 <ul className="space-y-2 text-sm text-zinc-400">
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Mettre fin à un abonnement
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Changer d&apos;offre
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                     Gérer la facturation
                   </li>
                 </ul>
@@ -170,15 +170,15 @@ export default function SupportPage() {
               </p>
               <ul className="space-y-2 text-sm text-zinc-400">
                 <li className="flex items-start gap-2">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                   L&apos;envoi de vidéos
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                   L&apos;analyse
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-orange" />
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-neon-blue" />
                   Un retour coach manquant
                 </li>
               </ul>

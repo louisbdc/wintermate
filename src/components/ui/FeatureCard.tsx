@@ -8,7 +8,7 @@ interface FeatureCardProps {
 export function FeatureCard({ feature }: FeatureCardProps) {
   const content = (
     <div className="space-y-4">
-      <div className="text-4xl font-black text-white transition-colors duration-300 group-hover:text-neon-orange">
+      <div className="text-4xl font-black text-white transition-colors duration-300 group-hover:text-neon-blue">
         {feature.number}
       </div>
       <h3 className="text-2xl font-bold uppercase tracking-tighter">
@@ -18,7 +18,7 @@ export function FeatureCard({ feature }: FeatureCardProps) {
         {feature.description}
       </p>
       {feature.href && (
-        <span className="inline-flex items-center gap-1 text-sm font-bold text-neon-orange">
+        <span className="inline-flex items-center gap-1 text-sm font-bold text-neon-blue">
           Découvrir
           <svg
             className="h-4 w-4"

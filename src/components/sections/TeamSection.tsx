@@ -9,7 +9,7 @@ export function TeamSection() {
         <ScrollReveal>
           <h2 className="mb-4 text-4xl leading-none font-black uppercase text-center md:text-left md:text-6xl">
             Le Collectif <br />
-            <span className="text-neon-orange">Winteractivity</span>.
+            <span className="text-neon-blue">Winteractivity</span>.
           </h2>
           <p className="max-w-2xl text-lg text-zinc-400">
             L&apos;expertise de la montagne au service de la tech. Plus de 430 000

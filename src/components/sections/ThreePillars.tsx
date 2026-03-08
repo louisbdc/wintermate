@@ -9,7 +9,7 @@ export function ThreePillars() {
         <ScrollReveal>
           <h2 className="mb-4 text-center text-4xl font-black uppercase md:text-6xl">
             3 piliers pour{" "}
-            <span className="text-neon-orange">progresser</span>.
+            <span className="text-neon-blue">progresser</span>.
           </h2>
           <p className="mx-auto mb-16 max-w-2xl text-center text-lg text-zinc-400">
             Une méthode complète qui combine théorie, pratique et analyse pour
