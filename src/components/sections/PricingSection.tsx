@@ -4,7 +4,7 @@ import { ScrollReveal } from "@/components/ui/ScrollReveal"
 
 export function PricingSection() {
   return (
-    <section className="bg-black py-24">
+    <section className="glow-top overflow-hidden bg-black py-24">
       <div className="container mx-auto px-6">
         <div className="mx-auto max-w-2xl text-center">
           <ScrollReveal>

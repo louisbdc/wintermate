@@ -15,6 +15,8 @@ body {
   font-family: var(--font-sans), system-ui, sans-serif;
   background-color: #000000;
   color: #ffffff;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 24px 24px;
 }
 
 h1,
@@ -22,6 +24,24 @@ h2,
 h3,
 .font-montserrat {
   font-family: var(--font-heading), system-ui, sans-serif;
+}
+
+/* Ambient glow */
+.glow-top {
+  position: relative;
+}
+
+.glow-top::before {
+  content: "";
+  position: absolute;
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  height: 500px;
+  background: radial-gradient(ellipse, rgba(255, 255, 255, 0.03) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
 }
 
 /* Frost glass effect */
